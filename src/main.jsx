@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "privacidad",
+    path: "/privacidad",
     element: <Privacidad />,
   },
 ]);
