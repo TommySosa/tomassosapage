@@ -6,17 +6,20 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Privacidad from './components/privacidad.jsx';
+import LaburosTuc from './components/LaburosTuc.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <App />
-    ),
+    element: <App />,
   },
   {
     path: "/privacidad",
     element: <Privacidad />,
+  },
+  {
+    path: "/privacidad/laburostuc",
+    element: <LaburosTuc />,
   },
 ]);
 
